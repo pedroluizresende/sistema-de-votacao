@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Principal {
 
+  /**
+   * Método main responsável por inicial a aplicação.
+   */
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     GerenciamentoVotacao gerenciamentoVotacao = new GerenciamentoVotacao();
