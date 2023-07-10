@@ -9,6 +9,9 @@ public class GerenciamentoVotacao implements GerenciamentoVotacaoInterface {
 
   private ArrayList<PessoaEleitora> pessoasEleitoras;
 
+  /**
+   * Método construtor.
+   */
   public GerenciamentoVotacao() {
     this.cpfsComputados = new ArrayList<>();
     this.pessoasCandidatas = new ArrayList<>();
